@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(240, 107, 107);
+}
+
+.sub {
+height: 300px;
+width: 255px;
+position: absolute;
+background-image: url(sub.gif);
+bottom: 0;
+background-size: 230px;
+
+}
+.fire {
+    position: absolute;
+    height: 220px;
+    width: 290px;
+    bottom: 0;
+    background-image: url(fire.gif);
+    
+
+}
+.game-over {
+    text-align: center;
+    color: black;
+    margin-top: 400px;
+    font-family: fantasy;
+}
+
+@keyframes sliderright {
+    from{
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-image: url(22.gif);
+    background-repeat: repetir-x;
+    
+    width: 100%;
+    height: 350px;
+    background-size: 1200px;
+}
